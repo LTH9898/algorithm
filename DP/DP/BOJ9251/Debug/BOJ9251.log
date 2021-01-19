@@ -1,0 +1,11 @@
+﻿  source.cpp
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(20,14): error C2131: 식이 상수로 계산되지 않았습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(20,9): message : 수명을 벗어난 변수 읽기로 인해 오류가 발생했습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(20,9): message : 'len1' 사용량 참조
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(20,24): error C2131: 식이 상수로 계산되지 않았습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(20,19): message : 수명을 벗어난 변수 읽기로 인해 오류가 발생했습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(20,19): message : 'len2' 사용량 참조
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(27,36): error C3863: 배열 형식 'int [len1+1][len2+1]'은(는) 할당할 수 없습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(29,51): error C3863: 배열 형식 'int [len1+1][len2+1]'은(는) 할당할 수 없습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(33,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int [len1+1][len2+1]'입니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\BOJ9251\source.cpp(16,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

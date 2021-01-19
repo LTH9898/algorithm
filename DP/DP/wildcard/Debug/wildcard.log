@@ -1,0 +1,6 @@
+﻿  source.cpp
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\wildcard\source.cpp(20,11): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\wildcard\source.cpp(20,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\wildcard\source.cpp(29,31): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\wildcard\source.cpp(61,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  wildcard.vcxproj -> C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\DP\DP\Debug\wildcard.exe

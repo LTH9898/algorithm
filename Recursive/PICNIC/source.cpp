@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <vector>
 #include <algorithm>
 
@@ -25,18 +25,19 @@ int countPairings(bool taken[10])
 		}
 	}
 
+
 	if (firstFree == -1) return 1;
 	int ret = 0;
 
 	for (int pairWith = firstFree + 1; pairWith < n; pairWith++)
 	{
 		if (!taken[pairWith] && areFriends[firstFree][pairWith]) {
-			taken[firstFree] = taken[pairWith] == true;
+			taken[firstFree] = taken[pairWith] = true;
 			ret += countPairings(taken);
 			taken[firstFree] = taken[pairWith] = false;
 		}
 	}
-	cout << ret;
+	
 	return ret;
 
 }
@@ -48,25 +49,23 @@ int main(void)
 
 	for (int i = 0; i < TC; i++)
 	{
+		memset(areFriends, false, sizeof(areFriends));
 		cin >> n >> m;
 
 		for (int i = 0; i < m; i++)
 		{
-			memset(areFriends, false, sizeof(areFriends));
+			
 			int a;
 			int b;
 
 			cin >> a >> b;
 
-			areFriends[a][b] = areFriends[b][a] == true; // 서로 짝꿍인 친구들 만들어놓기
-			cout << countPairings(take);
+			areFriends[a][b] = areFriends[b][a] = true; // 서로 짝꿍인 친구들 만들어놓기
 		}
 
-		
 		memset(take, false, sizeof(take));
 
-		cout << countPairings(take);
-
+		cout << countPairings(take) << endl;
 		
 
 	}

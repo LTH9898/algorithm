@@ -1,4 +1,0 @@
-﻿  source.cpp
-C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ11656\source.cpp(15,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ11656\source.cpp(21,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  BOJ11656.vcxproj -> C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\Debug\BOJ11656.exe

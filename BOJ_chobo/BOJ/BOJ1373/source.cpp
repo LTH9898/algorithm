@@ -1,25 +1,71 @@
+// 진법 변환 문제의 경우 다음 알고리즘.
+// 2진법에서 2자리씩 묶으면 4진수 / 3자리씩 묶으면 8진수. ...
 #include <iostream>
 #include <string>
 #include <math.h>
+#include <stack>
+#include <vector>
 using namespace std;
+
+//int main()
+//{
+//	vector<int> v;
+//	stack<int> s;
+//	long long result = 0;
+//	string arr;
+//
+//	cin >> arr;
+//	int len = arr.length();
+//	int temp = len - 1;
+//
+//	for (int i = 0; i < len; i++)
+//	{
+//		long long a = arr[i] - '0';
+//		result += (a)* (pow(2, temp));
+//		temp--;
+//	}
+//
+//	while (1)
+//	{
+//		s.push(result % 8);
+//
+//		result = result / 8;
+//
+//		if (result == 0)
+//			break;
+//
+//	}
+//
+//	int z = s.size();
+//	for (int i = 0; i < z; i++)
+//	{
+//		v.push_back(s.top());
+//		s.pop();
+//	}
+//
+//	for (int i = 0; i < v.size(); i++)
+//	{
+//		cout << v[i];
+//	}
+//
+//}
 
 int main()
 {
-	long long result = 0;
+
 	string arr;
 
 	cin >> arr;
 
-	int temp = arr.length() - 1;
+	while (arr.size() % 3 != 0) {
+		arr = '0' + arr;
+	}
 
-	for (int i = 0; i < arr.length(); i++)
+	string result;
+	for (int i = 0; i < arr.size(); i += 3)
 	{
-		result += arr[i] * pow(2, temp);
-
-		temp--;
 
 	}
 
-	cout << result;
 
 }

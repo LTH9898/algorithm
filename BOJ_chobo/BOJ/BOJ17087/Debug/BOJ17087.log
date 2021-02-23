@@ -1,0 +1,14 @@
+﻿  source.cpp
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ17087\source.cpp(51,21): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ17087\source.cpp(51,18): warning C4244: '인수': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ17087\source.cpp(53,27): warning C4244: '인수': '_Ty'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=__int64
+          ]
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ17087\source.cpp(53,18): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BOJ17087.vcxproj -> C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\Debug\BOJ17087.exe

@@ -64,8 +64,15 @@ int main()
 	string result;
 	for (int i = 0; i < arr.size(); i += 3)
 	{
-
+		int tmp = 0;
+		for (int j = i; j < i + 3; j++) {
+			tmp += (arr[j] - '0') * pow(2, 2 - (j % 3));
+		}
+		result += to_string(tmp);
 	}
-
-
+	for (int i = 0; i < result.size(); i++) {
+		cout << result[i];
+	}
+		
+	return 0;
 }

@@ -1,3 +1,0 @@
-﻿  source.cpp
-C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BF\BOJ2798\BOJ1018\source.cpp(62,6): warning C4101: 'cnt' :참조되지 않은 지역 변수입니다.
-  BOJ1018.vcxproj -> C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BF\BOJ2798\Debug\BOJ1018.exe

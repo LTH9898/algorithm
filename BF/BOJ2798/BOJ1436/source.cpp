@@ -17,7 +17,10 @@ int main()
 	{
 		
 		if (N == 1) {
-			cout << start;
+			break;
+		}
+
+		if (N == result) {
 			break;
 		}
 
@@ -27,19 +30,34 @@ int main()
 		int cnt = 0;
 		while (1)
 		{
+			if (cnt == 2)
+			{
+				result++;
+				break;
+			}
+
+			if (newNum == 0)
+			{
+				break;
+			}
+
 			if (newNum % 10 == 6)
 			{
 				cnt++;
 				newNum = newNum / 10;
 			}
 
-			if (cnt == 3)
+			if (newNum % 10 != 6)
 			{
-				result++;
-				break;
+				cnt = 0;
+				newNum = newNum / 10;
 			}
 		}
 		
 	}
 
+
+	cout << start;
+
+	return 0;
 }

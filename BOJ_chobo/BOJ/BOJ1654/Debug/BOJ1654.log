@@ -1,0 +1,22 @@
+﻿  source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,101): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3480): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<__int64 *,__int64 *> std::_Partition_by_median_guess_unchecked<__int64*,bool(__cdecl *)(int,int)>(__int64 *,__int64 *,bool (__cdecl *)(int,int))'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3506): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Sort_unchecked<__int64*,bool(__cdecl *)(int,int)>(__int64 *,__int64 *,int,bool (__cdecl *)(int,int))'에 대한 참조를 확인하세요.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\BOJ1654\source.cpp(31): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int,int)>(const std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,const std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool (__cdecl *)(int,int))'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=__int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416,91): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,92): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3420,82): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,40): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3430,30): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,40): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3442,30): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1469,57): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3416): message : 컴파일되는 함수 템플릿 인스턴스화 'bool std::_Debug_lt_pred<bool(__cdecl *&)(int,int),__int64&,__int64&,0>(bool (__cdecl *&)(int,int),__int64 &,__int64 &) noexcept(false)'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\algorithm(3480): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<__int64 *,__int64 *> std::_Partition_by_median_guess_unchecked<__int64*,bool(__cdecl *)(int,int)>(__int64 *,__int64 *,bool (__cdecl *)(int,int))'에 대한 참조를 확인하세요.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1469,50): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xutility(1471,9): warning C4244: '인수': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BOJ1654.vcxproj -> C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\BOJ_chobo\BOJ\Debug\BOJ1654.exe

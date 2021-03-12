@@ -3,15 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-bool compare(int a, int b)
-{
-	if (a > b)
-		return false;
-	else
-		return true;
-}
-
-
 int main() {
 	
 	int K;

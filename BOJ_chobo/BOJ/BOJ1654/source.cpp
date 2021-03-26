@@ -1,49 +1,49 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
 using namespace std;
 
+int k, n;
+int arr[10000];
+
+long long getCount(long long size) {
+	long long cnt = 0;
+
+	for (int i = 0; i < k; i++)
+	{
+		cnt += (arr[i] / size);
+	}
+
+	return cnt;
+}
+
 int main() {
-	
-	int K;
-	int N;
-	
-	vector<long long> v;
+	cin >> k >> n;
+	for (int i = 0; i < k; i++) cin >> arr[i];
 
-	cin >> K >> N;
+	sort(arr, arr + k);
 
-	for (int i = 0; i < K; i++)
-	{
-		long long temp;
-		cin >> temp;
-		v.push_back(temp);
-	}
+	int ans = 0;
 
-	sort(v.begin(), v.end(), compare);
+	long long left = 1;
+	long long right = arr[k - 1];
 
-	long long num = v[0];
+	while (left <= right) {
 
+		long long mid = (left + right) / 2;
 
-	while (num != 0)
-	{
-		long long sum = 0;
-		for (int i = 0; i < K; i++)
-		{
-			sum += v[i] / num;
+		long long cnt = getCount(mid);
+
+		if (cnt >= n) {
+			left = mid + 1;
+			ans = mid;
 		}
-		if (sum == N)
-		{
-			break;
-		}
-		else
-		{
-			num--;
+		else {
+			right = mid - 1;
 		}
 	}
 
-	cout << num;
-	
+	cout << ans << "\n";
+
 
 	return 0;
-
 }

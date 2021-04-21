@@ -2,35 +2,38 @@
 using namespace std;
 
 void insert(int idx, int num, int arr[], int& len) {
-    
-    int temp = arr[idx];
-
-
-    if (arr[idx] != NULL)
+    int templen = len;
+    if (idx < templen)
     {
-        for (int i = idx; i < len - idx; i++)
+        while (templen > idx)
         {
-            arr[i + 1] = arr[i];
+            arr[templen] = arr[templen - 1];
+            templen--;
         }
         arr[idx] = num;
+        len++;
     }
-
     else
     {
+        len++;
         arr[idx] = num;
     }
-
-    len++;
-
 }
 
 void erase(int idx, int arr[], int& len) {
+
+    len--;
+    while (idx < len)
+    {
+        arr[idx] = arr[idx + 1];
+        idx++;
+    }
 
 }
 
 void printArr(int arr[], int& len) {
     for (int i = 0; i < len; i++) cout << arr[i] << ' ';
-    cout << "\n\n";
+    cout << "\n";
 }
 
 void insert_test() {

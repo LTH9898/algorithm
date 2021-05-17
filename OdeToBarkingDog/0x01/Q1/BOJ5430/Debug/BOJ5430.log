@@ -1,0 +1,5 @@
+﻿  source.cpp
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\OdeToBarkingDog\0x01\Q1\BOJ5430\source.cpp(29,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\OdeToBarkingDog\0x01\Q1\BOJ5430\source.cpp(48,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\OdeToBarkingDog\0x01\Q1\BOJ5430\source.cpp(85,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BOJ5430.vcxproj -> C:\Users\98hoo\OneDrive\바탕 화면\git\algorithm\OdeToBarkingDog\0x01\Q1\Debug\BOJ5430.exe

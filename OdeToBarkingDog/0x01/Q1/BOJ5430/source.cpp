@@ -55,7 +55,7 @@ int main() {
 			{
 				mode = 0;
 			}
-			else if (mode == 0)
+			else if (method[i] == 'D' && mode == 0)
 			{
 				if (dq.empty() == 1)
 				{
@@ -64,7 +64,7 @@ int main() {
 				}
 				dq.pop_front();
 			}
-			else if (mode == 1)
+			else if (method[i] == 'D' && mode == 1)
 			{
 				if (dq.empty() == 1)
 				{
@@ -77,7 +77,7 @@ int main() {
 
 		if (mode == 2)
 		{
-			cout << "error!";
+			cout << "error" << '\n';
 		}
 		else if (mode == 0)
 		{
@@ -85,20 +85,27 @@ int main() {
 			for (int i = 0; i < dq.size(); i++)
 			{
 				cout << dq[i];
-				cout << ",";
+				if (i != dq.size() - 1)
+				{
+					cout << ",";
+				}
 			}
-			cout << "]";
+			cout << "]" << '\n';
 		}
 		else if (mode == 1)
 		{
 			cout << "[";
-			int i = dq.size();
-			for (i; i > 0; i--)
+			int j = dq.size()-1;
+			for (int i = 0; i < dq.size(); i++)
 			{
-				cout << dq[i];
-				cout << ",";
+				cout << dq[j];
+				if (j != 0)
+				{
+					cout << ",";
+				}
+				j--;
 			}
-			cout << "]";
+			cout << "]" << '\n';
 		}
 		
 	}

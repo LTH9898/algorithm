@@ -36,38 +36,38 @@ int main() {
 
 			else if (words[i] == ')')
 			{
-				if (s.empty() == 0 && s.top() == '(')
+				if (!s.empty() && s.top() == '(')
 				{
 					s.pop();
 				}
-				else if (s.empty() == 1)
+				else if (s.empty())
 				{
-					cout << "no";
+					cout << "no" <<'\n';
 					isFind = 1;
 					break;
 				}
 				else if (s.top() == '[')
 				{
-					cout << "no";
+					cout << "no" << '\n';
 					isFind = 1;
 					break;
 				}
 			}
 			else if (words[i] == ']')
 			{
-				if (s.empty() == 0 && s.top() == '[')
+				if (!s.empty() && s.top() == '[')
 				{
 					s.pop();
 				}
-				else if (s.empty() == 1)
+				else if (s.empty())
 				{
-					cout << "no";
+					cout << "no" << '\n';
 					isFind = 1;
 					break;
 				}
 				else if (s.top() == '(')
 				{
-					cout << "no";
+					cout << "no" << '\n';
 					isFind = 1;
 					
 					break;
@@ -75,23 +75,23 @@ int main() {
 			}
 		}
 
-		if (s.empty() == 1 && isFind == 0)
+		if (s.empty() && isFind == 0)
 		{
 			cout << "yes" << '\n';
 		}
-		else if (s.empty() == 0 && isFind == 0)
+		else if (!s.empty() && isFind == 0)
 		{
 			cout << "no" << '\n';
-			while (s.empty() == 1)
+			while (!s.empty())
 			{
 				s.pop();
 			}
 		}
-		else if (s.empty() == 0 && isFind == 1)
+		else if (!s.empty() && isFind == 1)
 		{
 			while (1)
 			{
-				if (s.empty() == 1)
+				if (s.empty())
 				{
 					break;
 				}

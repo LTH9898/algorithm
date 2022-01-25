@@ -37,5 +37,5 @@ int main() {
 			q.push({ nx, ny });
 		}
 	}
-	cout << dist[n - 1][m - 1] + 1;
+	//cout << dist[n - 1][m - 1] + 1;
 }
